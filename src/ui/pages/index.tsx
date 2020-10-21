@@ -1,0 +1,11 @@
+export { AuctionPage } from './auction/auction.page';
+export { VechicleAdVehicleRegister } from './vehicle-ad/vehicle-ad-vehicle-register.page';
+export { VechicleAdPhotos } from './vehicle-ad/vehicle-ad-photos.page';
+export { VechicleAdValues } from './vehicle-ad/vehicle-ad-values.page';
+export { VechicleAdPersonalData } from './vehicle-ad/vehicle-ad-personal-data.page';
+export { SellJourney } from './sell-journey/sell-journey.page';
+export { AccountCreate } from './account-create/account-create.page';
+export { Inspection } from './inspection/inspection.page';
+export { MyInspections } from './my-inspections/my-inspections.page';
+export { VehicleDelivery } from './vehicle-delivery/vehicle-delivery.page';
+export { MyAds } from './my-ads/my-ads.page';

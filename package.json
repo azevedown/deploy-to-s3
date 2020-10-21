@@ -1,0 +1,70 @@
+{
+  "name": "C4U",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.54",
+    "@types/react": "^16.9.44",
+    "@types/react-bootstrap-typeahead": "^3.4.6",
+    "@types/react-datepicker": "^3.1.1",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-scroll": "^1.8.0",
+    "@types/react-text-mask": "^5.4.6",
+    "@types/styled-components": "^5.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.2",
+    "c4u-web-components": "github:CoxAutomotiveBr/C4U.Web.Components",
+    "date-fns": "^2.15.0",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "formik": "^2.1.5",
+    "i18next": "^19.6.3",
+    "polished": "^3.6.5",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-bootstrap-typeahead": "^5.1.1",
+    "react-datepicker": "^3.2.2",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.7.0",
+    "react-number-format": "^4.4.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-scroll": "^1.8.1",
+    "react-text-mask": "^5.4.3",
+    "react-to-print": "^2.10.0",
+    "styled-components": "^5.1.1",
+    "typescript": "^3.7.5",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env react-scripts start",
+    "build": "env-cmd -f .env.production react-scripts build",
+    "build:develop": "env-cmd -f .env.development react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/yup": "^0.29.7"
+  }
+}
